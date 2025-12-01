@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(224, 211, 175);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(138, 154, 91);
+}
+
+h4 {
+    text-align: center;
+    color: rgb(78,120,169);
+}
+
+#mainMenu {
+    border: 1px solid black;
+    text-align: center;
+    
+   
+}
+
+.mainLinks {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(157,32,47);
+}
+
+.outingSearchBox {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border: 0px solid black;
+    max-width: 800px;
+
+}
+
+.outingSearch {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.trip-card {
+  
+     display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; 
+   
+}
+
+.trip-card h2,p {
+    text-align: center;
+
+}
+
+.trip-card > * {
+  display: inline-block;
+}
+
+.infoSection {
+    border: 4px solid rgb(78,120,169);
+    border-style: outset;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 260px;
+    flex-direction: column;      /* stack items vertically */
+    justify-content: flex-start; /* push content to the top */
+    align-items: flex-end;
+    text-align: center;
+     
+    
+}
+
+.displayTitle:hover {
+    color: rgba(157,32,47,.5);
+}
+
+.displayH1 {
+    font-size: 40px;
+}
+
+.displayPhotoStyle {
+display: inline-block;
+}
+
+#displayArea {
+    text-align: center;
+}
+
+.photoSection {
+     display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;
+    
+    width: 347px;
+    height: 260px;
+    border: 4px solid rgb(157,32,47);
+    border-style: ridge;
+    border-right: none;
+}
+
+.styleDate {
+    margin-right: 5px;
+    text-align: right;
+}
+
+.coverPhotoStyle {
+     width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center;  
+
+}
+
+#displayPhotoDiv {
+  margin-left: auto;
+  margin-right: auto;
+    
+    width: 500px;
+    height: 375px;
+}

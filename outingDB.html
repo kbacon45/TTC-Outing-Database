@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>TTC Archive Homepage</title>
+  <link rel="stylesheet" href="archivesStyle.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/TTCFavicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/TTCFavicon//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/TTCFavicon//favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+
+<body id="DBBody">
+     
+    <h1>Terrapin Trail Club Outing Database</h1>
+ <div class="outingSearchBox">
+    <form id="outingSearchForm" method="get">
+<fieldset>
+  <legend>Activity Type:</legend>
+
+  <label><input type="checkbox" name="activities" value="Hiking"> Hiking</label>
+  <label><input type="checkbox" name="activities" value="Camping"> Camping</label>
+  <label><input type="checkbox" name="activities" value="Kayaking/Canoeing"> Kayaking/Canoeing</label>
+  <label><input type="checkbox" name="activities" value="Climbing"> Climbing</label>
+  <label><input type="checkbox" name="activities" value="Backpacking">Backpacking</label><br><br>
+  <label><input type="checkbox" name="activities" value="Caving"> Caving</label>
+  <label><input type="checkbox" name="activities" value="Bouldering"> Bouldering</label>
+  <label><input type="checkbox" name="activities" value="Biking"> Biking</label>
+  <label><input type="checkbox" name="activities" value="Equestrian">Equestrian</label>
+  <label><input type="checkbox" name="activities" value="Sustainability">Sustainability</label>
+  <label><input type="checkbox" name="activities" value="SocialEvent"> Social Event</label>
+  <label><input type="checkbox" name="activities" value="Other">Other</label>
+</fieldset>
+<br>
+<fieldset>
+<legend>Trip Information:</legend>
+<label>Find trip start date by range: <input type="date" name="startDate"> <input type="date" name="endDate"></label><br>
+<label>Length of Trip by range: <input type="number" name="tripLengthStart" min="1"> - <input type="number" name="tripLengthEnd" min="1"> days </label>
+
+</fieldset>
+<br>
+<fieldset>
+<legend>Trip Location:</legend>
+<label>State(s) of trip: <input></label><br>
+<label>Miles from College Park by range: <input type="number" name="startDist" min="1"> <input type="number" name="endDist" min="1"></label><br>
+<label>Drive Time Estimate: <input type="checkbox" name="driveTime" value="ZeroOne">0 - 1 Hours</label>
+<label><input type="checkbox" name="driveTime" value="OneTwo">1 - 2 Hours</label>
+<label><input type="checkbox" name="driveTime" value="TwoThree">2 - 3 Hours</label>
+<label><input type="checkbox" name="driveTime" value="ThreeFour">3 - 4 Hours</label>
+<label><input type="checkbox" name="driveTime" value="FourFive">4 - 5 Hours</label>
+<label><input type="checkbox" name="driveTime" value="FivePlus">5+</label>
+
+
+
+</fieldset>
+<br>
+<button type="submit">Find Trips</button>
+    </form>
+    <br>
+    <div id="trip-list"></div> 
+  
+<script src="searchTrips.js"></script>
+</body>
+
+</html>

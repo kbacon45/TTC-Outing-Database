@@ -1,0 +1,177 @@
+[
+{
+"tripName":"Long Pine Run Hike",
+"tripStartDate":"2024-01-27",
+"tripDuration":1,
+"tripLocation":"Long Pine Run in Michaux State Forest",
+"activities": ["Hiking"],
+"statesVisited": ["PA"],
+"distanceUMD": 99,
+"driveEstimate": 2,
+"tripLeaders": ["Minh Ton","Kyle Bacon"],
+"totalTripGoers": 12,
+"milesTraveled": 6.5,
+"tripReport": "longPineRunJan24.pdf",
+"coverImage": "longPineRunJan24.jpg"
+},
+{
+"tripName":"Old Rag Day Hike",
+"tripStartDate":"2024-02-10",
+"tripDuration":1,
+"tripLocation":"Old Rag Mountain, Shendoah National Park",
+"activities": ["Hiking"],
+"statesVisited": ["VA"],
+"distanceUMD": 100,
+"driveEstimate": 2,
+"tripLeaders": ["Minh Ton","Ben Talley","Joe L"],
+"totalTripGoers": 26,
+"milesTraveled": 9.8,
+"coverImage": "oldRagFeb24.jpg"
+},
+{
+"tripName":"Intro Trip Spring 25",
+"tripStartDate":"2025-04-25",
+"tripEndDate":"2025-04-27",
+"tripDuration": 3,
+"tripLocation":"Stuart Recreation Area in Monongahela National Forest",
+"activities": ["Hiking","Camping","Caving","Equestrian"],
+"statesVisited": ["WV"],
+"distanceUMD": 218,
+"driveEstimate": 3.8,
+"tripLeaders": ["Soren Trimble"],
+"totalTripGoers": 32,
+"coverImage": "introTripS25.jpg"
+},
+{
+"tripName":"Silers Intro Caving",
+"tripStartDate":"2024-02-17",
+"tripDuration": 1,
+"tripLocation":"Silers Cave in West Virginia",
+"activities": ["Caving"],
+"statesVisited": ["WV"],
+"distanceUMD": 87,
+"driveEstimate": 1.9,
+"tripLeaders": ["Isabelle Altman Farrell","Jørgen Miller"],
+"totalTripGoers": 12,
+"coverImage": "silersCaveFeb24.jpg"
+},
+{
+"tripName":"Sky Meadows Day Hike",
+"tripStartDate":"2024-02-11",
+"tripDuration": 1,
+"tripLocation":"Sky Meadows State Park in Paris Virginia",
+"activities": ["Hiking"],
+"statesVisited": ["VA"],
+"distanceUMD": 75,
+"driveEstimate": 1.4,
+"tripLeaders": ["Kyle Bacon"],
+"totalTripGoers": 14,
+"milesTraveled": 5,
+"tripReport": "skyMeadowsFeb24.pdf",
+"coverImage": "skyMeadowsFeb24.jpg"
+},
+{
+"tripName":"Intro Trip Fall 25",
+"tripStartDate":"2025-10-03",
+"tripEndDate":"2025-10-05",
+"tripDuration": 3,
+"tripLocation":"Stuart Recreation Area in Monongahela National Forest",
+"activities": ["Hiking","Camping","Caving","Biking"],
+"statesVisited": ["WV"],
+"distanceUMD": 218,
+"driveEstimate": 3.8,
+"tripLeaders": ["Soren Trimble"],
+"totalTripGoers": 34,
+"coverImage": "introTripF25.jpg"
+},
+{
+"tripName":"Cunningham Falls and Colorfest",
+"tripStartDate":"2025-10-11",
+"tripDuration": 1,
+"tripLocation":"Catocin Mountain Park",
+"activities": ["Hiking"],
+"statesVisited": ["MD"],
+"distanceUMD": 69,
+"driveEstimate": 1.6,
+"tripLeaders": ["Trung Ngu"],
+"totalTripGoers": 8,
+"milesTraveled": 5,
+"coverImage": "fallColorfest25.jpg"
+},
+{
+"tripName":"C&O Canal Moonlight Hike",
+"tripStartDate":"2025-10-03",
+"tripDuration": 1,
+"tripLocation":"C&O Canal Towpath off off Old Anglers Inn parkinglot",
+"activities": ["Hiking"],
+"statesVisited": ["MD"],
+"distanceUMD": 22,
+"driveEstimate": 0.7,
+"tripLeaders": ["Jack Campbell"],
+"totalTripGoers": 48,
+"milesTraveled": 4,
+"coverImage": "moonlightFall25.jpg"
+},
+{
+"tripName":"Mt. Pleasant + Cole Mountain Frolic",
+"tripStartDate":"2025-10-04",
+"tripDuration": 1,
+"tripLocation":"Mt. Pleasant and Cole Mountain in GW National Forest, VA",
+"activities": ["Hiking"],
+"statesVisited": ["VA"],
+"distanceUMD": 220,
+"driveEstimate": 3.9,
+"tripLeaders": ["Joe Lavallee"],
+"totalTripGoers": 10,
+"milesTraveled": 12.5,
+"coverImage": "MtcoleOct4.jpg"
+},
+{
+"tripName":"VA Triple Crown Adventure",
+"tripStartDate":"2025-09-19",
+"tripEndDate":"2025-09-21",
+"tripDuration": 3,
+"tripLocation":"Dragon’s Tooth, McAfee Knob and the section of the AT in between",
+"activities": ["Backpacking"],
+"statesVisited": ["VA"],
+"distanceUMD": 255,
+"driveEstimate": 4.2,
+"tripLeaders": ["Isaac Dworkin","Vianne Hughes"],
+"totalTripGoers": 8,
+"milesTraveled": 20,
+"coverImage": "sept25TripleCrown.jpg"
+}, 
+{  
+"tripName":"Intro Trip Fall 25",
+"tripStartDate":"2025-10-03",
+"tripEndDate":"2025-10-05",
+"tripDuration": 3,
+"statesVisited": ["WV"],
+"isMultiLocation": true,
+"activities": ["Hiking","Camping","Caving","Biking"],
+"Locations": [
+{
+"hasCentralLocation":true,
+"centralLocation":"Stuart Recreation Area in Monongahela National Forest",
+"activityObjects": [
+    {
+        "activityName":"Sharps Caving",
+        "activityLocation": "Sharps Cave near Slaty Fork WV",
+        "activityType": "Caving",
+        "distanceUMD": 240,
+        "driveEstimate": 5.0,
+        "distanceBaseCamp": 50,
+        "driveEstimateBaseCamp": 1.2
+
+    }
+]
+}
+],
+"distanceUMD": 218,
+"driveEstimate": 3.8,
+"tripLeaders": ["Soren Trimble"],
+"totalTripGoers": 34,
+"coverImage": "introTripF25.jpg"
+}
+
+]
