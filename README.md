@@ -1,0 +1,1 @@
+The purpose of the outing database is to display Terrapin Trail Club trips in an interactive way. Users can search for trips based on specific critera and see a visually appealing breakdown of each trip. The outing database stores all trip info in a JSON file an uses Javascript to sort the info and display it on an html page.
